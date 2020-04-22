@@ -11,6 +11,7 @@ export default ({ pageContext }) => {
     <Layout>
       <SEO title="Je hebt een vuistje gekregen" />
       <Vuist />
+      {console.log(pageContext)}
       <Content {...pageContext} />
       <p className={style.note}>
         {pageContext.from} heeft jou dit vuistje gegeven.
