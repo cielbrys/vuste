@@ -1,6 +1,4 @@
 import React from "react"
-import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
-
 import style from "./content.module.css"
 
 const Content = ({ from, to, message }) => {
@@ -9,7 +7,6 @@ const Content = ({ from, to, message }) => {
       <dt className="visually-hidden">To</dt>
       <dd className={style.to}>{to}</dd>
       <dt className="visually-hidden">Message</dt>
-      {console.log (message)}
       <dd className={style.message}>{message}</dd>
       <dt className="visually-hidden">From</dt>
       <dd className={style.from}>{from}</dd>

@@ -69,3 +69,4 @@ https://developer.mozilla.org/en-US/docs/Web/API/Location/origin
 
 Ter info: dynamic static
 https://www.gatsbyjs.org/blog/2018-12-17-turning-the-static-dynamic/
+
